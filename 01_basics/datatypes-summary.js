@@ -41,4 +41,28 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");    
 }
-console.log(typeof outsideTemp);
+// console.log(typeof outsideTemp);
+
+
+// ***********************************************
+// Mamories
+// 2 types : Stack Memory, Heap Memory
+
+// stack memory (Primitive)
+let myYoutubename = "sisterzone"
+let anothername = "myYoutubename"
+anothername = "chaiorcode"
+console.log(myYoutubename);
+console.log(anothername);
+
+
+// heap memory (non-primitive)
+let userOne = {
+    email: "izzaabid456@gmail",
+    password: "user@gygu",  
+}
+let userTwo = userOne 
+userTwo.email = "adcd@gmail.com" 
+console.log(userOne.email);
+console.log(userTwo.email);
+
